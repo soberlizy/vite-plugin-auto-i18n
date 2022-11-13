@@ -1,0 +1,26 @@
+{
+  "name": "vite-plugin-auto-i18n",
+  "version": "1.0.0",
+  "description": "auto-i18n",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vite"
+  ],
+  "author": "lzy",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.20.4",
+    "@babel/parser": "^7.20.3",
+    "@babel/traverse": "^7.20.1",
+    "@babel/types": "^7.20.2",
+    "path": "^0.12.7",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "unbuild": "^0.9.4"
+  }
+}
